@@ -10,7 +10,6 @@ galakurpi  # 13 failing: cached target without kernel-replay.json x13
 jjjhenriksen  # 11 failing: no build.log x11
 TOTOGT  # 11 failing: malformed transcript x11
 BouquetAntoine  # 6 failing: cached target without kernel-replay.json x6
-TomMoeras  # 5 failing: cached target without kernel-replay.json x5
 twaldin  # 5 failing: no build.log x5
 yingluom  # 4 failing: other x3, attachment checksum x1
 hipotures  # 4 failing: log lacks target line x4
