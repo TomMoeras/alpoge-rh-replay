@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsBasisSpanEqTop",
+  "source_sha256": "bd2897fdb8f16b252868b12adb79f323ac76cad1e134ec31a5b96337c855e341",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass (motive := ...) explicitly and drop redundant zero case in IsBaseChange.inductionOn"
+}
