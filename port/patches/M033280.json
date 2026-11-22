@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainL2BoundStatement",
+  "source_sha256": "db0acbf59797caa8777b93faa4770ed1a8f0a2a2827eaa97da1a656ea6f43be7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

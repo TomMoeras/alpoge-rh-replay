@@ -1,0 +1,15 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeckePhiFourierConstantAtZeroZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeckePhiFourierConstantAtZeroZero.lean
+@@ -42,10 +42,8 @@ lemma hasDerivAt_neg_inv_ofReal_add_I (t : ℝ) :
+   have h2 := (h1.inv (ofReal_add_I_ne_zero t)).neg
+   have h3 := h2.comp_ofReal
+   convert h3 using 1
+-  · funext s
+-    simp
+-  · rw [inv_pow]
+-    field_simp
++  rw [inv_pow]
++  field_simp
+ 
+ lemma integral_inv_ofReal_add_I_sq : ∫ t : ℝ, ((t : ℂ) + I)⁻¹ ^ 2 = 0 := by
+   have hint : MeasureTheory.Integrable (fun t : ℝ => ((t : ℂ) + I)⁻¹ ^ 2) := by

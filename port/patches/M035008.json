@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckePhiFourierConstantAtZeroZero",
+  "source_sha256": "4dbb67c3905fd75cd9dfe149ce517a4d78b652613e33ba62c60769509761cd7d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove redundant funext subgoal already closed by convert h3 using 1"
+}

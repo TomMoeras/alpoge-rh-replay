@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HartTensorOfFlatStatement",
+  "source_sha256": "21371a9702b8be0b450ac9d23b589c66f069e4169c9035c298f1dd9e6dad5fb0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
