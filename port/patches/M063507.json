@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdSmoothedThetaQProductDistribution",
+  "source_sha256": "df370eb297891a70736448661103ff0cbec2e6356fddc8e12bf172af4008ea96",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename tendsto_finset_prod to tendsto_finsetProd"
+}

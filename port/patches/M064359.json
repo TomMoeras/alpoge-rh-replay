@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralPointThrough",
+  "source_sha256": "498349569f3b398de402b8db08635820142e90920f50cba4d9dda958b2ad97c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
