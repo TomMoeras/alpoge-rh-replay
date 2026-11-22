@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormalisationMulEqAevalRoot",
+  "source_sha256": "9d70aaeeebb58670653f349eb3883a118dc13038c4bb1d2fd746d3b2b9c27e81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

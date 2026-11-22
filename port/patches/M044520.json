@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivPdLe",
+  "source_sha256": "d0a32e4def3f02912503bdc3eb00d1853ca91a5e6343e06177bb0a5a7e361d6f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finset.prod_le_one with nonnegativity hypothesis to Finset.prod_le_one\u2080"
+}

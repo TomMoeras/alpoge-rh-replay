@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatDegreeMulEsymmRootsPow",
+  "source_sha256": "032b836e0b7bff315ca2d4c025249e1f4d29ab7c9d40e5f26eda7a444d71528b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

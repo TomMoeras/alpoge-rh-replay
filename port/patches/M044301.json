@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHom",
+  "source_sha256": "6bdbe19fbb3cc7c5bdc825497a7faee4d42cbb0b616c33f15ae5d636f0b8290b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
