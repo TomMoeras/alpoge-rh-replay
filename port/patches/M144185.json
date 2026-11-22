@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.CorankShare.CorankShareProofs.LayerCakeFormula",
+  "source_sha256": "ecf23723a1779e201e39209e33f4379e634463476502dd164e5e9727489ba96c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename intervalIntegral.integral_finset_sum to intervalIntegral.integral_finsetSum"
+}

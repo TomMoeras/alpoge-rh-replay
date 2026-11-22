@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.ProdEraseZero",
+  "source_sha256": "ce9213228f372a78cb6c6c745233d2a3231035e2b7d50cc4e44567c4af95287d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Drop explicit arguments on padicValInt.of_ne_one_ne_zero and bridge multiplicity and padicValNat via Nat.padicValNat_def"
+}

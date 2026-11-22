@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.BehrendSets.BehrendVariance.ProbEqSumIte",
+  "source_sha256": "89dabc7489dbad42b2727dda6e836179470b731cee1b5e7098232da51e4d0b52",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

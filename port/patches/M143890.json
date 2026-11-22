@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.SphericalLattices.LattEq",
+  "source_sha256": "9533d82d67d003f9a2d7de3b52d6842ab6b3611d3555dce298aa48819904e922",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.TwoSided",
+  "source_sha256": "7eb6f3d177db880d9410fa9a8d3acac4c0f52df9fc85a20d8efdbae5f0a24663",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_mul_right/left to continuous_mul_const/const_mul and integral/integrable_finset_sum to integral/integrable_finsetSum"
+}

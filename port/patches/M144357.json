@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FilteredPoleLength.LocalDescentLevels.GAdjugateNormBound",
+  "source_sha256": "a96d4d855048e19ad9898b013d2954ed4802f89090231b2f3c5b72d3a4ba86a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finset.prod_le_prod with nonnegativity hypothesis to Finset.prod_le_prod\u2080"
+}

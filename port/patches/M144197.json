@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.NonsquarefreeMonicBoundHolds",
+  "source_sha256": "d4f2f7fe9f70b56d559194e177060698ba657317b4c9c17155a556b0c367dec3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename finset_sum_coeff to finsetSum_coeff"
+}

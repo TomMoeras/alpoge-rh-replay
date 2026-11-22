@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.BehrendSets.BehrendVariance.MulAbsSubLt",
+  "source_sha256": "c6712df6924d245cb7a32c3caa7603dedb5085dbb60608efc4a4f1c717c0bb7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

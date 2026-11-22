@@ -1,0 +1,61 @@
+--- a/src/Formalism/ArtinHasse/ArtinHasseProofs/SymmSeries.lean
++++ b/src/Formalism/ArtinHasse/ArtinHasseProofs/SymmSeries.lean
+@@ -295,8 +295,8 @@ lemma coe_Eh (P : MvPolynomial (Fin n) R) :
+     simp [Eh, hv, Formalism.FT.hPS]
+ 
+ lemma coeff_Eh (P : MvPolynomial (Fin n) R) (d : Fin n →₀ ℕ) :
+-    MvPolynomial.coeff d (Eh R n P) =
+-      ∑ᶠ α, MvPolynomial.coeff α P • MvPowerSeries.coeff d (α.prod fun j e => hv R n j ^ e) := by
++    (Eh R n P).coeff d =
++      ∑ᶠ α, P.coeff α • MvPowerSeries.coeff d (α.prod fun j e => hv R n j ^ e) := by
+   rw [← MvPolynomial.coeff_coe, coe_Eh, MvPowerSeries.coeff_subst hasSubst_hv]
+   simp only [MvPolynomial.coeff_coe]
+ 
+@@ -335,7 +335,7 @@ def Fm (F : MvPowerSeries (Fin n) R) (m : ℕ) : MvPolynomial (Fin n) R :=
+   ∑ d ∈ finsuppAntidiag (univ : Finset (Fin n)) m, MvPolynomial.monomial d (MvPowerSeries.coeff d F)
+ 
+ lemma coeff_Fm (F : MvPowerSeries (Fin n) R) (m : ℕ) (d : Fin n →₀ ℕ) :
+-    MvPolynomial.coeff d (Fm F m) = if d.degree = m then MvPowerSeries.coeff d F else 0 := by
++    (Fm F m).coeff d = if d.degree = m then MvPowerSeries.coeff d F else 0 := by
+   unfold Fm
+   rw [MvPolynomial.coeff_sum]
+   simp only [MvPolynomial.coeff_monomial]
+@@ -359,7 +359,7 @@ lemma Fm_symm (F : MvPowerSeries (Fin n) R)
+     rw [← Finsupp.mapDomain_comp, Equiv.self_comp_symm, Finsupp.mapDomain_id]
+   have hdeg : (d.mapDomain π.symm).degree = d.degree := by
+     rw [Finsupp.degree_eq_sum, Finsupp.degree_eq_sum, ← Equiv.sum_comp π.symm]
+-    simp [Finsupp.mapDomain_apply π.symm.injective]
++    simp [Finsupp.mapDomain_apply_of_injective π.symm.injective]
+   conv_lhs => rw [hd]
+   rw [MvPolynomial.coeff_rename_mapDomain π π.injective, coeff_Fm, coeff_Fm,
+     coeff_mapDomain_of_symm F hF π.symm d, hdeg]
+@@ -369,17 +369,17 @@ theorem exists_G (F : MvPowerSeries (Fin n) R)
+       F.subst (fun i => (MvPowerSeries.X (π i) : MvPowerSeries (Fin n) R)) = F) :
+     ∃ G : MvPowerSeries (Fin n) R, G.subst (hv R n) = F := by
+   choose q hq using fun m => Eh_surj (Fm F m) (Fm_symm F hF m)
+-  let G : MvPowerSeries (Fin n) R := fun α => MvPolynomial.coeff α (q (wt α))
++  let G : MvPowerSeries (Fin n) R := fun α => (q (wt α)).coeff α
+   refine ⟨G, ?_⟩
+   ext d
+   rw [MvPowerSeries.coeff_subst hasSubst_hv G d]
+-  have h2 : MvPowerSeries.coeff d F = MvPolynomial.coeff d (Eh R n (q d.degree)) := by
++  have h2 : MvPowerSeries.coeff d F = (Eh R n (q d.degree)).coeff d := by
+     rw [hq, coeff_Fm, if_pos rfl]
+   rw [h2, coeff_Eh]
+   apply finsum_congr
+   intro α
+   by_cases h : wt α = d.degree
+-  · show MvPolynomial.coeff α (q (wt α)) • _ = _
++  · show (q (wt α)).coeff α • _ = _
+     rw [h]
+   · rw [coeff_prodpow_eq_zero α d h, smul_zero, smul_zero]
+ 
+@@ -405,7 +405,7 @@ theorem G_unique (H : MvPowerSeries (Fin n) R) (hH : H.subst (hv R n) = 0) : H =
+   rw [map_zero]
+   obtain ⟨m, hm⟩ : ∃ m, wt α = m := ⟨_, rfl⟩
+   let P : MvPolynomial (Fin n) R := ∑ β ∈ Aw n m, MvPolynomial.monomial β (MvPowerSeries.coeff β H)
+-  have hcP : ∀ β, MvPolynomial.coeff β P = if wt β = m then MvPowerSeries.coeff β H else 0 := by
++  have hcP : ∀ β, P.coeff β = if wt β = m then MvPowerSeries.coeff β H else 0 := by
+     intro β
+     simp only [P, MvPolynomial.coeff_sum, MvPolynomial.coeff_monomial]
+     rw [Finset.sum_ite_eq']

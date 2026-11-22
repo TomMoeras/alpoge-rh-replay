@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ArtinHasse.ArtinHasseProofs.SymmSeries",
+  "source_sha256": "e7edba35ec1e18d2fc6c03f7a195e4128b4cf250eb0d76b0ca5e60246ff0e2ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot-notation .coeff on MvPolynomial and rename Finsupp.mapDomain_apply to Finsupp.mapDomain_apply_of_injective"
+}

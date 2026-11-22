@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.DoubleCosetEqPreimage",
+  "source_sha256": "85a0c102b2d77e41170cc15f017537c53eb356f2f59c12bc7228c41c255726ca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Omit explicit arguments on DoubleCoset.eq"
+}
