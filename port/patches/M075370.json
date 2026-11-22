@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WeylNumeratorLaplace",
+  "source_sha256": "65929ba9c443f9db43ea4d9621a7ccff5555c05f3d05b91f6c339a1d38ea22db",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

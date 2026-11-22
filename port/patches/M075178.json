@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.VanishAtHodgeTateCocharacter",
+  "source_sha256": "a001981b3a0c45e29ccaefc40b4fe46a40655c5646e42a51cb3ac3c8d313020b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: update MvPolynomial.coeff m p to dot-notation p.coeff m in Mathlib v4.36.0"
+}
