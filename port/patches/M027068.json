@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftToCompleteDvrOfFinite",
+  "source_sha256": "94908ace6008bb826c619023e6220eeb6a159b435c6e6713c04f98ff51649f4f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Ideal.under_def before Ideal.comap_bot_of_injective"
+}

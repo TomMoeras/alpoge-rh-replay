@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitMulSubMemJacobsonOfFiniteResidueFiel",
+  "source_sha256": "5dcae3c2c505602b0781bf9aaf83c1c3ff117fdb8efd8426f98b17c85f605ba9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit algebraMap and isIntegral witness to Ideal.isMaximal_comap_of_isIntegral_of_isMaximal"
+}
